@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy);
+* {
+    margin:0;
+    padding:0;
+    
+   
+}
+
+body,html {
+    height: 100vh;
+    background-color:aqua;
+   text-align: center;
+}
+
+h1,h4 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Luckiest Guy', Helvetica, sans-serif;
+    text-shadow: 4px 4px 0px #ba3a1a; 
+    letter-spacing: 0.1rem;
+    color:floralwhite;    
+}
+
+.wholecontent {
+    position: relative;
+    background: url("http://res.cloudinary.com/trodison/image/upload/v1510508038/World_map_with_nations_lcx7r1.svg"); 
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    
+    width: 1377px;
+    height: 692px; 
+   
+}
+.button {
+    padding: 3rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+#click {
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    background-color: cadetblue;
+    border: 1px solid red;
+    margin-bottom: 1rem;
+}
+
+.met {
+    position: absolute;
+    border: 1px solid red;
+}
+
+.drawLine {
+    position:absolute;
+    font-weight: bold;
+    text-decoration: underline;
+    min-width: 190px;
+    min-height: 15px;
+    color:forestgreen;
+    padding: 5px;
+    border: 1px solid red;
+    background-color: whitesmoke;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.rame {
+    padding: 10px;
+    border: 1px solid gray;
+    display: inline-block;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    border-radius: 5px;
+}
+
+#status {
+    position: absolute;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid grey;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#refreshpage {
+     display: inline-block;
+    padding: 10px 20px 10px 20px;
+    background-color: cadetblue;
+    border: 1px solid red;
+    margin-top: 1rem;
+    margin-bottom: 1rem;   
+}
+
+div > p {
+    font-weight: bold;
+    color:darkolivegreen;
+    letter-spacing: .05rem;
+}
