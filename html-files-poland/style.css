@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy);
+* {
+    margin:0;
+    padding:0;
+    
+   
+}
+
+body,html {
+    height: 100vh;
+    background-color:aqua;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Luckiest Guy', Helvetica, sans-serif;
+    text-shadow: 4px 4px 0px #ba3a1a; 
+    letter-spacing: 0.1rem;
+    color:floralwhite;    
+}
+
+.wholecontent {
+    position: relative;
+    background: url("http://res.cloudinary.com/trodison/image/upload/v1510165375/poland-cities_tkweb6.svg"); 
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 5px solid yellow;
+    width: 862px;
+    height: 838px; 
+   
+}
+
+
+
+.met {
+    position: absolute;
+    border: 1px solid red;
+}
+
+.drawLine {
+    position:absolute;
+    font-weight: bold;
+    text-decoration: underline;
+    min-width: 190px;
+    min-height: 30px;
+    color:forestgreen;
+    padding: 5px;
+    border: 1px solid red;
+    background-color: whitesmoke;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.button {
+    padding: 3rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+#click {
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    background-color: cadetblue;
+    border: 1px solid red;
+    margin-bottom: 1rem;
+}
+
+.tableContent {
+ /*   display: flex;
+    flex-direction: column;
+   */
+    display: table;
+    table-layout: fixed;
+    border-spacing: 2px;
+    border-collapse: separate;
+    
+}
+
+.tableMet div:nth-child(2) {
+    margin: 1rem auto;
+}
+
+.tableContent > div > div {
+/*    align-self: center;
+    margin: 0.5rem 0 0.5rem 0;
+    font-weight: bold; */
+    border: 1px solid red;
+    padding: 10px;
+    text-align: center;
+}
+
+.loadTable {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#loadDataTable {
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color:cadetblue;
+    border: 1px solid white;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    color: gold;
+    margin-bottom: 1rem;
+    
+}
+
+.tableContent > div:nth-child(even) {
+    padding: 10px;
+    background-color: brown;
+}
